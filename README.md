@@ -2,6 +2,12 @@
 
 ClaimSight AI is a locally runnable full-stack app for auto-insurance claims triage. It accepts a text question and an optional vehicle-damage photo, analyzes the image with a multimodal LLM, rewrites the query with conversation context, decides whether retrieval is needed, runs a real Chroma-backed RAG flow over public insurance documents, and stores multi-turn chat history in SQLite by `session_id`.
 
+## Frontend Preview
+
+![ClaimSight AI Triage Assistant — chat interface with session history, quick-start prompts, and the auto insurance question input](./assets/frontend-preview.png)
+
+The React frontend features multi-session chat history in the left sidebar, quick-start prompt cards for common scenarios (collision vs. comprehensive, documentation requirements, claims timelines, parts guidance), live backend status, and an image-upload-enabled question input.
+
 ## What Is In This Repo
 
 - `backend/`
