@@ -1,0 +1,10 @@
+venv/
+frontend/node_modules/
+backend/.env
+backend/chroma_db/
+backend/chat_history.db
+data/raw/
+frontend/dist/
+*.log
+__pycache__/
+*.pyc
