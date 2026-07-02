@@ -4,7 +4,7 @@ ClaimSight AI is a locally runnable full-stack app for auto-insurance claims tri
 
 ## Frontend Preview
 
-![ClaimSight AI Triage Assistant — chat interface with session history, quick-start prompts, and the auto insurance question input](./assets/frontend-preview.png)
+![ClaimSight AI Triage Assistant — chat interface with session history, quick-start prompts, and the auto insurance question input](./frontend/src/assets/frontend-preview.png)
 
 The React frontend features multi-session chat history in the left sidebar, quick-start prompt cards for common scenarios (collision vs. comprehensive, documentation requirements, claims timelines, parts guidance), live backend status, and an image-upload-enabled question input.
 
